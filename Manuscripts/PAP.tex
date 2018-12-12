@@ -1,0 +1,886 @@
+\documentclass[11pt]{article}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{geometry}
+\usepackage{scrpage2}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage{authblk}
+\usepackage{setspace}
+\usepackage{blindtext}
+\usepackage{mathptmx}
+\usepackage{bm}
+
+\title{Costs, Credibility, and Relative Salience: \\ Why Voters Don't Sanction Politicians for Corruption \\ Pre-Analysis Plan}
+
+\author{Mats Ahrenshop\thanks{MPhil Candidate, Department of Politics and International Relations, University of Oxford.}}
+
+\date{This version: \today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\begin{onehalfspace}
+\begin{center}
+\textbf{Abstract}
+\end{center}
+
+\noindent Why don’t voters punish corruption in elections under optimal informational conditions? Retrospective voting models argue that informational deficits distort a perfect principal-agent relationship between voters and elected officials. However, even if information about corrupt politicians is existent and credible, retrospective punishment of corruption is often non-existent.
+I apply a different theoretical perspective to this puzzle of corruption voting by combining prospective cost evaluations with the relative issue-salience in a formal model. I thus hypothesize that voters do not punish corruption because corruption is less salient to voters than other issues such as prosperity and security. I argue that this is because voters are not willing to tolerate the costs associated with fighting corruption if other issues are more salient -- especially when anti-corruption policy promises are non-credible.
+I isolate relative-issue salience as the causal mechanism linking anticipated costs and credibility of the promise to vote choice in two steps. First, I will conduct a survey experiment treating subjects with vignettes on costs and credibility of policy proposals and compare the relative issue-salience of corruption, prosperity and security. Second, I will employ a conjoint experiment where voters choose between two candidates promising policies with randomly varying levels of policy issue, costs, and credibility. Experiments will be conducted in Chile, India, and the United Kingdom.
+Addressing this problem has important implications for optimal campaign platform and policy design, as well as for electoral accountability and the reduction of corruption in a given country.
+\end{onehalfspace}
+
+\newpage
+\thispagestyle{empty}
+\begin{small}
+\tableofcontents
+\end{small}
+
+\newpage
+\doublespacing
+\setcounter{page}{1}
+
+\section{Introduction}
+Why don't voters punish corruption in elections under optimal informational conditions? Retrospective voting models assume that there is a gap between information acquisition, responsibility attribution, and vote choice due to informational deficits. This distorts a perfect principal-agent relationship between citizens and elected officials. However, (i) evidence here is often drawn from observational data, making causal inference hard to achieve, and (ii) there is evidence that even if information about corrupt politicians is existent and credible, retrospective punishment is often absent. Why is the latter the case?
+
+I combine prospective voting models and relative issue-salience in a formal model and add the argument to the corruption voting literature that voters do not punish corruption at the ballot box even under optimal information scenarios because corruption is less salient to voters than other issues such as the economy and domestic security. I argue that this is because voters are not prospectively willing to tolerate the costs of fighting corruption, especially when anti-corruption policy promises are not credible, whereas for relatively more salient issues such as prosperity and greater domestic security they are willing to tolerate costs. Explanations of the corruption-voting puzzle derived from prospective voting, as well as the relative issue-salience of corruption are largely absent from the corruption voting literature. I attempt to help close this gap by testing my argument against data from (i) a standard survey experiment estimating relative issue-salience and (ii) a conjoint experiment where voters have to choose between two candidates offering policies with randomly varying levels of the attributes costs, credibility, and the issues itself. Experiments will be conducted in Chile, India, and the United Kingdom.
+
+Why voters often fail to punish corruption has important implications for optimal campaign platform design, as the conjoint experiment models the process of voters choosing between candidates competing on different policy packages. Providing evidence on the puzzle addresses for electoral accountability, democratic self-governance and the reduction of corruption.
+
+\newpage
+\section{Motivation and Related Literature}
+How elections can produce representation and accountability is of utmost concern to any democratic society. Retrospective accountability models contend that voters are able to evaluate the incumbent's performance of the past election cycle and sanction bad performance in office or reward good performance by voting against or for them, respectively, as a solution to moral hazard (Healy and Malhotra 2013).
+
+However, numerous empirical studies have not been able to show retrospective voting effects when it comes to corruption (de Vries and Solaz 2017). The literature on corruption voting has offered different explanations for this puzzle: informational asymmetry (Chang et al. 2010), flawed responsibility attribution (Tavits 2007), non-credibility of information (Winters and Weitz-Shapiro 2013), and vote buying (Manzetti and Wilson 2007). However, evidence for these explanations has been inconclusive for two reasons. First, many studies draw evidence from observational survey data while making causal claims, thus facing endogeneity and unobserved heterogeneity problems (e.g., Peters and Welch 1980; Chang et al. 2010). Second, and more importantly, it has been shown that even in cases where information is existent, when responsibility attribution is straightforward, and information is credible, retrospective punishment is often non-existent (de Vries and Solaz 2017, 197).
+
+Why the lack of accountability still persists is thus the central puzzle of this research project. Which causal mechanism, if not retrospective voting, is it that can account for persistent corruption voting? I offer two contributions to this problem. First, I try to fill the gap methodologically, by piling up the stock of experimental evidence: The few experimental studies on the issue still do not mount up to a conclusive body of causally credible empirical evidence which can travel across time and space (Samii 2016; Green and Gerber 2012).
+
+Second, substantially, I add a new theoretical argument to the puzzle identified above. \textit{Prospective} voting explanations for the failure of electoral accountability as regards corruption have been largely absent in the literature reviewed. Furthermore, anti-corruption policy-promises made during campaigns instead of past performance as signal extraction cues for prospective vote choice have not been seriously considered in the general selection literature, neither more recently in Ashworth (2012) and Duch and Stevenson (2008), nor in Fearon (1999).
+
+Hence, I offer a new explanation, combining prospective voting (Lockerbie 2008; Elinder et al. 2015; Feltovich and Giovannoni 2016) with a model of issue salience (Miller et al. 2016). The central argument is that \textit{corruption is less salient to voters than other issues such as the economy and domestic security. I argue that this is because voters are not willing to tolerate the costs of fighting corruption, especially when anti-corruption policy promises are not credible, whereas for relatively more salient issues such as economic prosperity and domestic security\footnote{These are two of the consistently most important issues to voters (Gallup News 2018; Aisch and Parlapiano 2017).} they are willing to tolerate costs.} Costs and credibility of policy proposals affect the relative issue-salience of corruption as a policy issue, and this in turn affects vote choice (see figure \ref{fig:fig1}). Put differently, relative issue-salience is regarded as the mechanism linking anticipated costs and credible commitment to vote choice.
+
+\newpage
+\section{Hypotheses}
+\subsection{Traditional Prospective Voting}
+I combine traditional prospective voting with credible commitments and relative issue-salience in a single formal model. In the traditional prospective voting model, voters form their expected utility from voting for a particular candidate based on promises made by political parties or candidates during an election campaign (Lockerbie 2008). I adopt and simplify the model by Elinder et al. (2015) by excluding their retrospective elements and adjust it to the theoretical approach of this project.
+
+Consider two parties, $L$ and $R$. The outcome of interest is the likelihood that citizen $j$ votes for party $L$. The game is being played as follows: Political parties present their platforms (campaign promises) at the beginning of the period, i.e. during an election campaign. Thereafter, citizens vote and the winner forms the government. We can denote the expected benefits of citizen $j$ if party $K, K \in \{L, R\}$ would win as $E[B_j^K]$. In the simplest of all scenarios, voter $j$ votes for party $L$ if
+
+\begin{equation}
+E\bigg[B_j^L - B_j^R\bigg] > 0.
+\end{equation}
+Pure prospective voting models thus contend that the expected benefits if party $K$ would win office are entirely a function of party $K's$ promised benefits to citizens, $P_j^K$. Thus,
+
+\begin{equation}
+E\bigg[B_j^K\bigg] = P_j^K.
+\end{equation}
+Inserting (2) into (1) yields the following condition for citizen $j$ voting for party $L$ if
+
+\begin{equation}
+P_j^L - P_j^R > 0.
+\end{equation}
+Put informally, in order to maximize individual benefits, voters select the party under which they expect to fare best financially in the future. To calculate expected utility under the new adminstration, “voters have good reason to pay attention to the promises of candidates," as Lockerbie (2008, 7) states. It is crucial to note, however, that this “pure" model assumes perfect credibility of party promises because citizens are assumed to vote entirely based on promises. Weights for relative issue-salience are also not considered here.
+
+\subsection{Modified Prospective Voting}
+\paragraph{Outcome}
+The main aim is to credibly estimate the relative issue-salience of corruption and then to use this as an argument for why voters do not electorally punish corrupt politicians. To conceptualize the first outcome of interest, (relative) issue-salience, let us examine the deterministic spatial model of voting in Ansolabehere and Puy (2018). Consider political party $j$ with platform $(x_j, y_j)$ for issues $X$ and $Y$, and voter $i$ with ideal policy $(x_i, y_i)$. The preference of voters over political parties, $U_i(j)$, is the negative quadratic distance between the party platform and the ideal point on each issue,
+
+\begin{equation}
+U_i(j) = - \alpha(x_j - x_i)^2 - \beta(y_j - y_i)^2,
+\end{equation}
+where $\alpha, \beta > 0$ are \textit{salience parameters}, i.e. weights of general importance voters assign to issues $X$ and $Y$\footnote{Note that this is the most common definition of issue-salience and is in line with Miller et al.'s (2016) definition. For other conceptualizations, see Miller et al. 2016, 125-130.}. It is sufficient to note that these salience weights become politically consequential when voters' optimal voting decision is cast upon the differential utility between parties A and B, $\Delta u_i = U_i(A) - U_i(B)$.
+
+The important point in Ansolabehere's model, however, is the concept of relative issue-salience (RIS),
+\begin{equation}
+RIS = \bigg[\frac{\alpha}{\beta}\bigg]^\frac{1}{2}.
+\end{equation} 
+This yields the average importance in voters' preferences of issue $X$ over issue $Y$ and constitutes the first outcome of interest.
+
+To conceptualize the second outcome of interest, vote choice, as needed for the “larger" prospective voting model, I simply consider the choice of voting for candidate $A$ as opposed to voting for candidate $B$, where the optimal decision rule of selecting a candidate is the same as in equation (3), but this time for candidates instead of parties.
+
+\paragraph{Treatment}
+How can we explain the relative issue-salience of corruption? Miller et al. (2016) identify three different sources affecting personal issue importance: Material self-interest, values, and identification. First, looking at ``material self-interest'', it is crucial to note that costs are allowed to vary. They need not solely be financial costs as in the pure prospective voting model, but for example can also be costs such as disclosing private data or simply opportunity costs. This can be applied to corruption voting and the anticipated costs of anti-corruption campaign promises and we can thus hypothesize that \\
+\textit{H1: Costs associated with anti-corruption policy promises decrease the relative weight voters place on corruption.}
+
+Second, Elinder et al. (2015) -- in line with Feltovich and Giovannoni (2015) -- argue that “in a richer model, $\gamma_{m, t}$ [weights voters attach to platform of party K] would be endogenous, and arguably depend on the extent to which promises have been kept in the past." Applied to the corruption voting case, we can hypothesize that \\
+\textit{H2: Lack of credibility of anti-corruption policy promises decreases the relative weight voters place on corruption.}
+
+Third, Miller et al. (2016) consider “values" as a major source of personal issue-salience. I thus expect that for other issues that are higher valued by voters, such as the economy and domestic security, costs and lack of credibility of respective policy proposals do not affect their relative issue-salience, since voters are willing to incur costs for economic prosperity or more security. The economy and security concerns have consistently been shown to be two of the most important issues to voters (Gallup News 2018; Aisch and Parlapiano 2017). Thus, \\
+\textit{H3: Anticipated costs of policy promises and lack of perceived credibility do not affect the relative issue-salience of the economy and security.}
+
+Finally, to close the causal chain, I apply this “zoomed-in" framework, where relative issue-salience is the outcome, to the broader model of prospective voting, thereby linking it to vote choice as the ultimate outcome. Formally, the pure prospective voting model derived above will simply be extended, namely, if candidate $K$ campaigns on anti-corruption promises (among others), then
+
+\begin{equation}
+E\Big[B_j^K\Big] = \sum_{i = 1}^{3}\bigg(P_j^{K, i} \times \rho_i + RIS_{j,i}\bigg),
+\end{equation}
+where $\sum_{i = 1}^{3}P_j^{K, i}$ denotes the promised benefits (anticipated costs) for voter $j$ made by candidate $K$ for each issue $i = 1, \hdots, 3$, $\rho_i$ is the credibility of the proposal for issue $i$, and $RIS_{j,i}$ is the relative issue-salience voter $j$ attaches to issue $i$ within the proposal, where for each issue there are two comparison weights, and thus two $RIS_{j,i}$ which are averaged for each issue. The decision rule for the optimal strategy to vote is still captured in equation (1), but now the expected benefits are furthermore a function of anticipated costs and credibility of the promise \textit{plus} the relative issue salience. From this, we can informally hypothesize that \\
+\textit{H4: Lower salience of corruption decreases the probability of voting for a candidate campaigning on anti-corruption policies.} \\
+
+\subsection{Heterogeneous Treatment Effects}
+In line with Miller et al.'s (2016) ``identification'' as a third source of relative issue-salience, I relax the implicit rationality assumptions from the models and allow for heterogeneous treatment effects: Depending on party identification (PID; Arceneaux and Johnson 2013), the effect of anticipated costs and lack of credibility of policy promises on relative issue-salience and on vote choice can be quite different. I also expect voters' responses to anticipated costs of promises and a lack of credibility to be especially strong among low-income citizens. Lastly, under a scenario with high levels of corruption, it might be entirely financially rational for voters to tolerate corruption, i.e. under vote buying scenarios, if voters had previous individual experience with clientelism (Manzetti and Wilson 2007; Klasnja et al. 2016).
+
+\noindent \textit{H5: Partisanship moderates the effect of policy costs and credibility on relative issue-salience and vote choice.}
+
+\noindent \textit{H6: Income moderates the effect of policy costs and credibility on relative issue-salience and vote choice.}
+
+\noindent \textit{H7: Individual experience with clientelism moderates the effect of policy costs and credibility on relative issue-salience and vote choice.}
+
+%--------------------%
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale = 0.38]{causalmodel.JPG}
+\caption{Causal Model}
+\label{fig:fig1}
+\end{center}
+\end{figure}
+%--------------------%
+
+\newpage
+\section{Case Selection and Measurement}
+\subsection{Sampling Strategy}
+Besides focusing on democratic systems (where a choice between two political candidates is meaningful), the experiments should reflect variation in the corruption voting puzzle between high-corruption and low-corruption countries (Klasnja et al. 2016; Klasnja and Tucker 2013). A still unresolved problem is whether ``scandal fatigue" in high-corruption countries or low salience of corruption in low-corruption countries lead to persistent corruption voting. Thus, comparing the two democracies United Kingdom, with a high ranking in the top quartile (rank 8/180) of the Corruption Perceptions Index (CPI, Transparency International 2018), and Chile having a high ranking of 26/180, with the democracy India, with a low ranking (81/180), provides the ideal comparison of a high-corruption and two low-corruption countries. This rare opportunity produces significant leverage to further engage in the ``scandal fatigue" literature within corruption voting.
+
+\subsection{Measurement: Experimental Design}
+The puzzle of why voters do not punish corruption in elections under optimal informational conditions entails, I argue, two “effects of causes"-questions: \\
+(1) What is the effect of anti-corruption policy proposals on the relative issue-salience of corruption?\\
+(2) What is the effect of the relative issue-salience of corruption on vote choice?\\
+The two questions require two separate identification strategies to credibly estimate the causal effects of each of the respective treatment variables.
+
+I employ the design of complex treatments to answer the question: Which part of the treatment is really doing the work (Imai et al. 2011; Baird et al. 2011)? I collapse the treatment into multiple treatment arms: combinations of anticipated costs and credibility of the proposal in the first experiment; simultaneous randomization of several treatment components in the second conjoint experiment. Exact question wordings of baseline survey, treatments (vignettes and conjoint tables), and endline surveys exemplary for the experimental sessions in the UK are provided in the comprehensive survey instruments overview in Appendix \ref{sec1}-\ref{sec2}.
+
+\subsubsection{Salience estimation approach}
+As hypothesized, anticipated costs and lack of credibility of anti-corruption policy promises decrease the relative weight voters place on corruption, whereas they do not affect the relative issue-salience of the economy and security (hypotheses 1-3). To test these hypotheses, I employ a standard survey experiment with the experimental set up as displayed in figure \ref{fig:fig1}. The two main treatment groups with two treatment arms, respectively, are a combination of the two factors anticipated costs and credibility of the policy promise. Note that for each of the four resulting treatment arms, each subject receives its respective treatment for all three issues -- corruption, economy, domestic security -- consecutively; these policy bundles are much closer to the political reality of electoral campaigns. To avoid contamination effects, the order in which subjects within each treatment arm receive the issue proposals will be randomized.
+
+The first group receives informational interventions about a credible but costly policy proposal made by a candidate during an election campaign. The second group is treated with a costly policy proposal, without mentioning costs of that proposal at all. The third group receives an informational intervention about a non-credible and costly policy promise. The fourth treatment group receives information about a non-credible policy proposal, without mentioning anticipated costs of that proposal at all. Finally, the control group receives information about the promised proposal for each respective issue, without any mention of anticipated costs or credibility. A placebo group will receive a text about Hilary Hahn's latest concert at Carnegie Hall, which is assumed to be completely unrelated to the outcome, relative issue-salience. Comparing this outcome across the different treatment arms as well as between each treatment arm and the control/placebo group allows the credible estimation of the treatment effects proposed in hypotheses 1-3.
+
+After receiving treatment, participants are asked to rank the three core issues along with three unrelated policy issues according to their relative personal issue-salience, where the order of the appearance of the issues is randomized to avoid contamination effects. Another strategy will be to ask respondents to scale the relative importance of each issue on a scale [1,5] as well as have them plan a hypothetical federal budget for the upcoming budgetary year and allocate percentages of money that should be spent on each issue.
+
+Regarding the measurement of prognostic pre-treatment covariates, I include several survey questions in the baseline survey about partisanship, income, and experience with clientelism plus a set of standard control variables such as age, gender, and education.
+
+%--------------------%
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.35]{expsetup2.JPG}
+\caption{Experimental Treatments and Treatment Effect Expectations in Experiment 1}
+\label{fig:fig2}
+\end{figure}
+%--------------------%
+
+\subsubsection{Vote choice estimation approach}
+To close the causal chain, hypothesis 4, which states that low relative issue-salience of corruption decreases the probability of voting for a candidate campaigning on anti-corruption policy promises, is evaluated using experimental data from a conjoint experiment. Hainmueller et al. (2013) provide us with a formal framework to estimate the causal effects of simultaneously varied multiple treatment components (multidimensional treatments), and to assess which components of the manipulation produce the observed treatment effects on the outcome. This is ideal when the goal is to isolate causal mechanisms and thus captures exactly the complexity of the treatment.
+
+For each of several choice tasks, respondents are presented with two candidates proposing policy-packages (2 profiles) composed of different attributes. Randomization creates different sets of random profiles from round to round and will be implemented via \texttt{Conjoint Analysis} in Qualtrics. The three attributes of a policy package are costs, credibility, and policy issue. In each policy-package (profile), a level is randomly selected for each attribute from the set of possible levels. Under this randomization scenario, the average marginal component effect of each treatment component is non-parametrically identified. Note that in order for this to work, “the respondents need not be shown every potential combination of profiles/attributes to identify these component-specific effects" (Strezhnev et al. 2014, 2). In each of the six choice tasks each respondent receives, the respondent is asked to choose between two candidates (profiles) offering different policy-packages from round to round. By design, relative issue-salience, by virtue of randomly priming it (through alterations in “issue"), becomes a coefficient within a broader model of vote choice.
+
+For each choice task, a respondent is asked to read a tabular overview of the two profiles between which to choose (table \ref{tab:tab1}). The outcome will be measured in two ways. First, under the “forced choice" scenario, respondents simply have to electorally choose between the two candidates. Second, respondents have to provide a rating of support for each candidate. I include survey questions on prognostic pre-treatment covariates in the baseline survey in the same manner as in experiment 1.
+
+\begin{table}[!ht]
+	\caption{Exemplary conjoint table.}\label{tab:tab1}
+	\resizebox{\textwidth}{!}{
+\begin{tabular}{ccc}
+	\toprule
+	& Candidate 1 offering policy & Candidate 2 offering policy \\
+	\midrule
+	Issue & Anti-Corruption & Economy \\
+	Costs & No costs & Raising income taxes \\
+	Credibility & \makecell{Has been shown to perform well in \\ decreasing corruption} & \makecell{Has been shown to perform well in \\ increasing economic growth} \\
+	\bottomrule
+	\end{tabular}
+	}
+\end{table}
+
+\newpage
+\section{Estimation and Analysis}
+\subsection{Experiment 1: Estimating Relative Issue-Salience}
+The complete estimation overview is provided in table \ref{tab:tab2}.
+The causal quantity of interest in this first standard survey experiment is the average treatment effect $ATE$ of costs and credibility on relative issue-salience which is simply the expected difference of individual unit's potential outcomes in the treatment and control conditions, formally
+
+\begin{equation}
+\widehat{ATE} \equiv \frac{1}{n} \sum_{i=1}^{n} \big[Y_{1i} - Y_{0i}\big].
+\end{equation}
+By design, we can credibly assume independence of treatment assignment and potential outcomes, and thus estimate $ATE$ with a simple difference-in-group-means estimator,
+
+\begin{align}
+\begin{split}
+\widehat{ATE} & = E[Y_{1i} - Y_{0i}] \\
+& = E[Y_{1i}] - E[Y_{0i}] \\
+& = E[Y_i|D_i = 1] - E[Y_i|D_i = 0].
+\end{split}
+\end{align}
+To compare relative issue-salience as the outcome across the different treatment arms and estimate $ATE$ for this first experiment, consider the estimating equation
+
+\begin{align}
+E[Y_i] = \beta_0 + \beta_1D_i + \sum_{k=1}^{K}(X_k),
+\end{align}
+where $Y_i$ is relative issue-salience and $\beta_1$ the average treatment effect of the different treatment arms on issue-salience, controlling for the set of pre-treatment covariates summed over in the equation.
+
+Furthermore, by interacting the treatment with PID as well as with income and experience of clientelism we can model possible heterogeneous treatment effects with the estimating equation
+
+\begin{align}
+E[Y_i] = \beta_0 + \beta_1D_i * \bm{M_i} + \beta_2 \bm{M_i},
+\end{align}
+where $\beta_1$ captures the heterogeneous treatment effect of the respective moderator $M_i$ from the set of all moderators $\bm{M_i}$.
+
+\subsection{Experiment 2: Estimating Vote Choice}
+Non-parametrical estimation of the causal quantities of interest in a conjoint experiment is straightforward given some assumptions are met.\footnote{The following exposition draws heavily on the to date unrivaled notation by Hainmueller et al. 2013.} Denote by $i \in \{1,...,N\}$ each respondent's index presented with $K$ choice tasks, where in each of these tasks she chooses the most preferred of $J$ profiles. Each of these profiles, in turn, consists of $L$ attributes. Then, $T_{ijk}$ denotes treatment given to respondent $i$ as the $j$th profile in her $k$th choice task. Further assume $T_{ik}$ denotes the entire set of attribute values for all $J$ profiles in respondent $i$'s choice task $k$, and $\bar{T}_i$ the entire set of all $JK$ profiles respondent $i$ sees throughout the experiment. Under potential outcomes framework, $Y_{ik}(\bar{t})$ denotes the $J$-dimensional vector of potential outcomes for respondent $i$ in her $k$th choice task that would be observed when the respondent received the sequence of profile attributes represented by $\bar{t}$, with individual components $Y_{ijk}(\bar{t})$.
+
+\subsubsection{Estimands of Interest}
+The conjoint focuses on three causal quantities of interest. First, the average marginal component effect $AMCE$ indicates how different values of the $l$th attribute, for example policy cost variations, of profile $j$ influence the probability that the profile is chosen; we obtain the marginal effect of attribute $l$ averaged over the joint distribution of the remaining attributes.
+
+Formally, the target estimand $AMCE$ is given by
+
+\begin{equation}
+\begin{aligned}
+\bar{\pi}_l(t_1, t_0, p(\bm{t})) & \equiv E\bigg[Y_i(t_1, T_{ijk[-l]}, \bm{T}_{i[-j]k}) - Y_i(t_0, T_{ijk[-l]}, \bm{T}_{i[-j]k})|(T_{ijk[-l]}, \bm{T}_{i[-j]k}) \in \tilde{\tau}\bigg] \\
+& = \sum_{(t, \bm{t}) \in \tilde{\tau}} E\bigg[Y_i(t_1, t, \bm{t}) - Y_i(t_0, t, \bm{t})|(T_{ijk[-l]}, \bm{T}_{i[-j]k}) \in \tilde{\tau}\bigg] \\
+& \times p\bigg(T_{ijk[-l]} = t, \bm{T}_{i[-j]k} = \bm{t}|(T_{ijk}[-l], \bm{T}_{i[-j]k}) \in \tilde{\tau}\bigg),
+\end{aligned}
+\end{equation}
+where $T_{ijk[-l]}$ is the vector of $L - 1$ treatment components for $i$'s $j$th profile in choice task $k$ without the $l$th component and $\tilde{\tau} \equiv p(T_{ijk[-l]} = t, \bm{T}_{i[-j]k} = \bm{t}|T_{ijkl} = t_1) \cap p(T_{ijk[-l]} = t, \bm{T}_{i[-j]k} = \bm{t}|T_{ijkl} = t_0)$.
+
+Second, the average component interaction effect $ACIE$ quantifies the size of interactions when the causal effect of one attribute (e.g. policy costs) varies depending on what value \textit{another attribute} (e.g. policy issue) is held at: What is the effect of policy costs on vote choice when we only consider credible proposals? Formally,
+
+
+\begin{align}
+& \bar{\pi}_{l, m}(t_{l1}, t_{l0}, t_{m1}, t_{m0}, p(\bm{t})) \\
+& \equiv E\Bigg[\bigg\{Y_i(t_{l1}, t_{m1}, T_{ijk[-(lm)]}, \bm{T}_{i[-j]k}) - Y_i(t_{l0}, t_{m1}, T_{ijk[-(lm)]}, \bm{T}_{i[-j]k})\bigg\} \nonumber \\
+& - \bigg\{Y_i(t_{l1}, t_{m0}, T_{ijk[-(lm)]}, \bm{T}_{i[-j]k}) - Y_i(t_{l0}, t_{m0}, T_{ijk[-(lm)]}, \bm{T}_{i[-j]k})\bigg\} | (T_{ijk[-(lm)]}, \bm{T}_{i[-j]k}) \in \tilde{\tilde{\tau}}\Bigg] \nonumber,
+\end{align}
+where $T_{ijk[-(lm)]}$ is the set of $L - 2$ attributes for $i$'s $j$th profile in choice task $k$ except components $l$ and $m$, and $\tilde{\tilde{\tau}}$ is defined analogously to $\tilde{\tau}$ above. For example, this estimand yields the percentage points difference in $AMCEs$ of costs between a credible and non-credible policy.
+
+Finally, the conditional $AMCE$ identifies the causal effect of an attribute interacted with a respondents' \textit{background characteristic}. This corresponds to modelling heterogeneous treatment effects. The conditional $AMCE$ of component $l$ given a set of respondent characteristics $X_i$ is
+
+\begin{equation}
+E\bigg[Y_i(t_1, T_{ijk[-l]}, \bm{T}_{i[-j]k}) - Y_i(t_0, T_{ijk[-l]}, \bm{T}_{i[-j]k}) | (T_{ijk[-l]}, \bm{T}_{i[-j]k}) \in \tilde{\tau}, X_i\bigg].
+\end{equation}
+
+\subsubsection{Estimation Strategies}
+Satisfaction of the conditions outlined in Appendix \ref{assumptions} gives us leverage to estimate $AMCE$ by linearly regressing
+
+\begin{equation}
+Y_{ijk} = 1 + W_{ijkl} + W_{ijkl'} + W_{ijkl}:W_{ijkl'},
+\end{equation}
+where 1 is an intercept, $W_{ijkl}$ is the vector of $D_l - 1$ dummy variables for the levels of $T_{ijkl}$ except the one for $t_0$,  $W_{ijkl'}$ is a similar vector for levels of $T_{ijkl'}$ except the ones for baseline level, and $W_{ijkl}:W_{ijkl'}$ is the pariwise interactions between the two sets of dummy variables. Then estimate
+
+\begin{equation}
+\hat{\hat{\bar{\pi}}}_l(t_1, t_0, p(\bm{t})) = \hat{\beta}_1 + \sum_{d=1}^{D_{l'-1}}Pr(T_{ijkl'} = t_d^{'})\hat{\delta}_{1l'd},
+\end{equation}
+from which we obtain $\hat{\beta}_1$ as the coefficient on the dummy variable for $T_{ijkl} = t_1$ and $\hat{\delta}_{1l'd}$ is the coefficient for the interaction term between the $t_1$ dummy and the dummy variable that corresponds to $T_{ijkl} = t_d^{'}$.
+
+We can extend this estimating equation for the $AMCE$ to the cases of $ACIE$ and conditional $AMCE$ by further subclassification of the sample into strata defined by either the attribute with which the interaction is of interest ($ACIE$) or $X_i$ (conditional $AMCE$).
+
+\begin{table}[H]
+\caption{Hypotheses, Specifications and Measures}\label{tab:tab2}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{llllll}
+	\toprule
+	\# & Abbr. Hypothesis & Y & X & Estimand \\
+	\midrule
+	H1 & Cost effect & Issue-Salience Corruption & Policy costs & Eq. 8 \\
+	H2 & Credibility effect & Issue-Salience Corruption & Policy credibility & Eq. 8\\
+	H3 & Cost/credibility effect & Issue-Salience Econ./Sec. & Policy costs + credibility & Eq. 8 \\
+	H4 & Salience effect & Vote choice & Relative Issue-salience & Eq. 11\\
+	H5 & PID moderation & All outcomes & All treatments & Eqs. 8, 13\\
+	H6 & Income moderation & All outcomes & All treatments & Eqs. 8, 13\\
+	H7 & Clientelism moderation & All outcomes & All treatments & Eqs. 8, 13\\
+	\bottomrule
+\end{tabular}}
+\end{table}
+
+\subsection{Power Analysis}
+For the standard survey experiment, power calculation needs to account for multiple treatment arms by using Bonferroni correction (Gerber and Green 2012). Given we have six treatment arms, we will end up with $\frac{200}{6} = 33$ subjects per treatment (arm). Thus, achieving 80\% power will be more difficult if we are not only interested in the probability that \textit{at least one} of the treatments turns up significant, but that \textit{all} of the treatments turn up significant. However, basic power simulation demonstrates that already for two significant results turning up 80\% of the time, one would need 3,000 subjects for an $ATE = 2.5$ which would not be feasible in this project.
+
+Thus, for both experiments\footnote{Outcomes in both experiments can be scaled ranging [0, 100] for budget allocation in experiment one and vote percentage in experiment two.}, assume $\alpha = 0.05$, $\beta = 0.8$, and set the number of experimental subjects per country to $n = 200$. Then, under a reasonable scenario with $s_Y = 25$, we can detect an effect size of $ATE = 11$ which is far from unrealistic for both experiments.
+
+\subsection{Contingencies: Diagnostic Tests and Non-Compliance}
+Whether non-compliance or failure to treat occurs during the experiments will be checked by a simple knowledge question about the treatment vignette/table in the endline survey.
+
+Diagnostic tests as proposed by Hainmueller et al. (2013) will be conducted to check the validity of the assumptions made. For carryover effects, $AMCE$s will be estimated separately for each of the $K$ rounds of choices and look for differences. For profile order effects, I assess $AMCE$s depending on whether the attribute occurs in the first or the second profile in a given choice task. For attribute order effects, I assess whether $AMCE$ depends on the order in which the respective attribute appears in the conjoint table. 
+
+The pre-treatment covariates collected in the baseline survey also will be evaluated across treatment and control group to check for covariate imbalance by reporting \textit{F}-statistics for the tests of differences in group means. Therefore, I will simply regress the treatment indicator on the set of covariates for both experiments.
+
+\subsection{Data Collection, Processing, Ethics}
+Data will be kept confidential during collection by virtue of isolated working through the survey experiment. Processed data will be kept confidential in accordance with CESS policy on anonymity of the data and property rights. After a one-year period, data be made publicly available on the researcher's \texttt{GitHub} account. The data will be used as part of his MPhil thesis with the aim of eventually publishing results.
+
+No deception will be used. Items are designed such that they do not reveal personally identifying information; neither does any item involve harm, stress or any other strain on a subject. The researcher will apply for ethical approval at the University of Oxford\\ \texttt{https://researchsupport.admin.ox.ac.uk/governance/ethics}.
+
+\newpage
+\section{Conclusion}
+I have outlined a pre-analysis plan to address the question: Why don't voters punish corruption in elections under optimal informational conditions? I argue that the retrospective voting models have not found a conclusive answer to this puzzle. I apply a different theoretical perspective on voters' decision-making to the case of corruption voting and combine prospective cost evaluations with the relative-issue salience of corruption to explain persistent corruption voting. Relative-issue salience will be isolated as the causal mechanism linking anticipated costs and credibility of the promise to vote choice by employing a conjoint survey experiment where voters have to choose between two candidates promising policies with randomly varying levels of the attributes costs, credibility, and the issue itself. This identification strategy allows me to add the argument to the corruption voting literature that voters do not punish corruption in elections because corruption is less salient to voters than other issues.
+
+\newpage
+\section{Appendix}
+\singlespacing
+\subsection{Experiment 1: Survey Instruments} \label{sec1}
+\subsubsection{Baseline survey: Pre-treatment covariates}
+[60 sec]\\
+
+\noindent Q1: In what year were you born?\\
+
+\noindent Q2: What best describes your gender?
+
+\noindent Male\\
+Female\\
+Neither\\
+
+\noindent Q3: What is the highest level of education you have completed?
+
+\noindent GCSEs/ O-Levels\\
+A-Levels\\
+Bachelor’s degree\\
+Trade/Technical/Vocational Training\\
+Postgraduate degree\\
+
+\noindent Q4: What was your total household income in the previous year?
+
+\noindent Less than \textsterling20,000\\
+\textsterling20,000 - \textsterling39,999\\
+\textsterling40,000 - \textsterling59,999\\
+\textsterling60,000 - \textsterling99,999\\
+\textsterling100,000 and over\\
+
+\noindent Q5: Is there a political party with which you identify?
+
+\noindent Yes\\
+No\\
+
+\noindent [Answer Q6.1 and Q6.2 if “Yes” is selected.]\\
+
+\noindent Q6.1: With which political party do you identify?
+
+\noindent Labour\\
+Conservative\\
+Liberal Democrat\\
+Scottish National Party (SNP)\\
+Plaid Cymru\\
+Green Party\\
+United Kingdom Independence Party (UKIP)\\
+Other\\
+None\\
+
+\noindent Q6.2: How strongly do you identify with this party?\\
+\noindent Very strong\\
+Fairly strong\\
+Not very strong\\
+Don’t know\\
+
+\noindent Q7: Where would you place yourself on this scale?
+
+\noindent 1: Extremely liberal\\
+2: Liberal\\
+3: Moderate\\
+4: Conservative\\
+5: Extremely conservative\\
+
+\noindent Q8: Have you ever received benefits in exchange for you voting for a particular candidate?
+
+\noindent Yes\\
+No\\
+
+\noindent Q9: Please rank the issues corruption, economy, domestic security, environment, education, and social equality on the following ranking list according to the personal importance that they have to you, where 1 is the most important issue and 6 the least important issue.
+
+\noindent Corruption\\
+Economic prosperity\\
+Domestic security\\
+Environment\\
+Education\\
+Social equality\\
+
+\noindent Q10: How important is the issue corruption [economic prosperity/domestic security/the environment/education/social equality] to you on a scale of 1-5, where 1 means very important, and 5 means not important at all?
+
+\noindent Corruption\\
+Economic prosperity\\
+Domestic security\\
+Environment\\
+Education\\
+Social equality\\
+
+\noindent Q11: Imagine you are planning the federal budget for the upcoming budgetary year. Please allocate percentages of money that should be spent on each issue.
+
+\noindent Corruption\\
+Economic prosperity\\
+Domestic security\\
+Environment\\
+Education\\
+Social equality\\
+
+\subsubsection{Treatment vignettes}
+
+\noindent 1. Credible-costly\\
+
+Corruption:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to fight corruption: They want to set up an anti-corruption commission investigating and prosecuting corruption in the country. This will cost £2bn and will be financed from increasing income taxes. Anti-corruption policies have been shown by experts to perform well in decreasing the general level of corruption in numerous countries around the world."
+
+Economy:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to increase economic growth: They want to reduce business tax to increase investment and thus economic prosperity. This will cost £2bn and will be financed from increasing income taxes. This policy has been shown by experts to perform well in increasing economic growth in numerous countries around the world."
+
+Security:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to increase domestic security: They want to increase the number of police to better fight crime. This will cost £2bn and will be financed by increasing income taxes. This policy has been shown by experts to perform well in increasing domestic security in numerous countries around the world."\\
+
+\noindent 2. Credible only\\
+
+Corruption:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to fight corruption: They want to set up an anti-corruption commission investigating and prosecuting corruption in the country. Anti-corruption policies have been shown by experts to perform well in decreasing the general level of corruption in numerous countries around the world."
+
+Economy:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to increase economic growth: They want to reduce business tax to increase investment and thus economic prosperity. This policy has been shown by experts to perform well in increasing economic growth in numerous countries around the world."
+
+Security:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to increase domestic security: They want to increase the number of police to better fight crime. This policy has been shown by experts to perform well in increasing domestic security in numerous countries around the world."\\
+
+
+\noindent 3. Non-credible-costly\\
+
+Corruption:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to fight corruption: They want to set up an anti-corruption commission investigating and prosecuting corruption in the country. This will cost £2bn and will be financed from increasing income taxes. Anti-corruption policies have been shown by experts to have little effect on decreasing the general level of corruption in numerous countries around the world."
+
+Economy:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to increase economic growth: They want to reduce business tax to increase investment and thus economic prosperity. This will cost £2bn and will be financed from increasing income taxes. This policy has been shown by experts to have little effect on increasing economic growth in numerous countries around the world."
+
+Security:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to increase domestic security: They want to increase the number of police to better fight crime. This will cost £2bn and will be financed by increasing income taxes. This policy has been shown by experts to have little effect on increasing domestic security in numerous countries around the world."\\
+
+\noindent 4. Non-credible only\\
+
+Corruption:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to fight corruption: They want to set up an anti-corruption commission investigating and prosecuting corruption in the country. Anti-corruption policies have been shown by experts to have little effect on decreasing the general level of corruption in numerous countries around the world."
+
+Economy:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to increase economic growth: They want to reduce business tax to increase investment and thus economic prosperity. This policy has been shown by experts to have little effect on increasing economic growth in numerous countries around the world."
+
+Security:\\
+“Imagine there is a general election upcoming. A political candidate running for office makes the following proposal to increase domestic security: They want to increase the number of police to better fight crime. This policy has been shown by experts to have little effect on increasing domestic security in numerous countries around the world."\\
+
+\noindent 5. Control\\
+
+Corruption:\\
+“Imagine there is a general election upcoming. During the election campaign, a political candidate running for office makes a proposal to fight corruption.”
+
+Economy:\\
+“Imagine there is a general election upcoming. During the election campaign, a political candidate running for office makes a proposal to increase economic growth."
+
+Security:\\
+“Imagine there is a general election upcoming. During the election campaign, a political candidate running for office makes a proposal to increase domestic security."\\
+
+\noindent 6. Placebo\\
+
+\noindent “Just recently, the violinist Hilary Hahn gave a concert at Carnegie Hall in New York City. The performance has been celebrated by professional critics throughout New York's culture scene."
+
+
+\subsubsection{Endline survey: Outcome measure}
+
+Q12: Please rank the issues corruption, economy, domestic security, environment, education, and social equality on the following ranking list according to the personal importance that they have to you, where 1 is the most important issue and 6 the least important issue.
+
+\noindent Corruption\\
+Economic prosperity\\
+Domestic security\\
+Environment\\
+Education\\
+Social equality\\
+
+\noindent Q13: How important is the issue corruption [economic prosperity/domestic security/the environment/education/social equality] to you on a scale of 1-5, where 1 means very important, and 5 means not important at all?
+
+\noindent Corruption\\
+Economic prosperity\\
+Domestic security\\
+Environment\\
+Education\\
+Social equality\\
+
+\noindent Q14: Imagine you are planning the federal budget for the upcoming budgetary year. Please allocate percentages of money that should be spent on each issue.
+
+\noindent Corruption\\
+Economic prosperity\\
+Domestic security\\
+Environment\\
+Education\\
+Social equality\\
+
+\noindent Q15: Which policy issue did the candidate address in his campaign promise?
+
+\noindent Corruption\\
+Economic prosperity\\
+Domestic security\\
+Environment\\
+Education\\
+Social equality\\
+
+\subsection{Experiment 2: Survey Instruments}\label{sec2}
+In total: 300 sec
+
+\subsubsection{Baseline survey: Pre-treatment covariates}
+[60 sec]\\
+
+\noindent Q1: In what year were you born?\\
+
+\noindent Q2: What best describes your gender?
+
+\noindent Male\\
+Female\\
+Neither\\
+
+\noindent Q3: What is the highest level of education you have completed?
+
+\noindent GCSEs/ O-Levels\\
+A-Levels\\
+Bachelor’s degree\\
+Trade/Technical/Vocational Training\\
+Postgraduate degree\\
+
+\noindent Q4: What was your total household income in the previous year?
+
+\noindent Less than \textsterling20,000\\
+\textsterling20,000 - \textsterling39,999\\
+\textsterling40,000 - \textsterling59,999\\
+\textsterling60,000 - \textsterling99,999\\
+\textsterling100,000 and over\\
+
+\noindent Q5: Is there a political party with which you identify?
+
+\noindent Yes\\
+No\\
+
+\noindent [Answer Q6.1 and Q6.2 if “Yes” is selected.]\\
+
+\noindent Q6.1: With which political party do you identify?
+
+\noindent Labour\\
+Conservative\\
+Liberal Democrat\\
+Scottish National Party (SNP)\\
+Plaid Cymru\\
+Green Party\\
+United Kingdom Independence Party (UKIP)\\
+Other\\
+None\\
+
+\noindent Q6.2: How strongly do you identify with this party?\\
+\noindent Very strong\\
+Fairly strong\\
+Not very strong\\
+Don’t know\\
+
+\noindent Q7: Where would you place yourself on this scale?
+
+\noindent 1: Extremely liberal\\
+2: Liberal\\
+3: Moderate\\
+4: Conservative\\
+5: Extremely conservative\\
+
+\noindent Q8: Have you ever received benefits in exchange for you voting for a particular candidate?
+
+\noindent Yes\\
+No\\
+
+\subsubsection{Treatments}
+Treatment set up [110 sec]
+\begin{itemize}
+        \item Cost = \{Public money/taxes, opportunity costs, personal data, no costs\}
+        \item Effectiveness = \{Effective, not effective\}
+        \item Policy issue = \{Anti-corruption, economy, domestic security\}
+        \item Credibility = \{Credible, not credible\}
+        \item Gender = \{Female, male\}
+        \item Party = \{Current government party, main opposition party\}
+\end{itemize}
+
+\begin{table}[H]
+	\caption{Please read the descriptions of the potential candidates carefully. Then, please indicate which of the two candidates you would personally prefer to see elected in the next election.} \label{tab:tab3}
+	\resizebox{\textwidth}{!}{
+\begin{tabular}{ccc}
+	\toprule
+	& Candidate 1 & Candidate 2 \\
+	\midrule
+	& \emph{Proposes policy package:} & \emph{Proposes policy package:}\\
+	\hline
+	Issue & Anti-Corruption & Economic \\
+	Costs & No costs & Raising income taxes \\
+	Effectiveness & \makecell{Has been shown to perform well in \\ decreasing corruption} & \makecell{Has been shown to perform well in \\ increasing economic growth} \\
+	& & & \\
+	& \emph{Has characteristics:} & \emph{Has characteristics:} \\
+	\hline
+	Credibility & \makecell{Has a reputation for keeping \\ campaign promises} & \makecell{Has a reputation for not keeping \\ campaign promises} \\
+	Gender & Male & Female \\
+	Party & Labour & Conservative \\
+	\bottomrule
+	\end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\caption{Attribute levels: Table texts} \label{tab:tab4}
+	\resizebox{\textwidth}{!}{
+        \begin{tabular}{lll}
+        \toprule
+        Attribute & Level & Text in table \\
+            \midrule
+            \multirow{}{Costs} & \multicolumn{1}{l}{Public money/taxes} & \multicolumn{1}{l}{Raising income taxes} \\\cline{2-3}
+                                 & \multicolumn{1}{l}{Opportunity costs} & \multicolumn{1}{l}{Less money for other issues} \\\cline{2-3}
+                                 & \multicolumn{1}{l}{Personal data} & \multicolumn{1}{l}{Disclosure of private data} \\\cline{2-3}
+                                 & \multicolumn{1}{l}{No costs} & \multicolumn{1}{l}{No costs} \\\hline
+            \multirow{}{Effectiveness} & \multicolumn{1}{l}{Effective} & \multicolumn{1}{l}{Has been shown by experts to perform well in decreasing/increasing [issue]}\\\cline{2-3}
+                                &\multicolumn{1}{l}{Not effective} & \multicolumn{1}{l}{Has been shown by experts to have little effect on decreasing/increasing [issue]}\\\hline
+            \multirow{}{Policy Issue} & \multicolumn{1}{l}{Anti-corruption} &  \multicolumn{1}{l}{Anti-corruption}\\\cline{2-3} &
+            \multicolumn{1}{l}{Economy} & \multicolumn{1}{l}{Economy}\\\cline{2-3} &
+            \multicolumn{1}{l}{Domestic Security} & \multicolumn{1}{l}{Domestic Security}\\\hline
+            \multirow{}{Credibility} & \multicolumn{1}{l}{Credible} & \multicolumn{1}{l}{Has a reputation for keeping campaign promises}\\\cline{2-3}
+                                &\multicolumn{1}{l}{Not credible} & \multicolumn{1}{l}{Has a reputation for not keeping campaign promises}\\\hline
+            \multirow{}{Gender} & \multicolumn{1}{l}{Female} & \multicolumn{1}{l}{Female}\\\cline{2-3}
+            &\multicolumn{1}{l}{Male} & \multicolumn{1}{l}{Male}\\\hline
+            \multirow{}{Party} & \multicolumn{1}{l}{Incumbent party} & \multicolumn{1}{l}{Conservative}\\\cline{2-3}
+            &\multicolumn{1}{l}{Main opposition party} & \multicolumn{1}{l}{Labour}\\\hline
+            \bottomrule
+        \end{tabular}
+        }
+\end{table}
+
+\subsubsection{Endline survey: Outcome measure}
+[110 sec]\\
+
+\noindent Q9: If you had to choose between them, which of these two candidates would you vote for in the upcoming election?
+
+\noindent Candidate 1\\
+Candidate 2\\
+
+\noindent Q10: On a scale from 1 to 7, where 1 indicates absolutely no support for the candidate and 7 the highest support, how would you rate candidate 1?
+
+\noindent 1\\
+2\\
+3\\
+4\\
+5\\
+6\\
+7\\
+
+\noindent Q11: Using the same scale, how would you rate candidate 2?
+
+\noindent 1\\
+2\\
+3\\
+4\\
+5\\
+6\\
+7\\
+
+\noindent Q12: How many attributes did each policy proposal include?
+
+\noindent 1\\
+2\\
+3\\
+4\\
+
+
+\subsection{Estimation Assumptions in the Conjoint}\label{assumptions}
+(1) \textbf{Stability and no carryover effects}: Potential outcomes always take on the same value as long as all the profiles in the same choice task have identical sets of attributes.\footnote{Note that this assumption might not always be satisfied; there are solutions as well as ways to test whether this assumption is met, however.}\\
+(2) \textbf{No profile-order effects}: Ordering of profiles within a choice task does not affect responses (this can again be tested).\\
+(3) \textbf{Randomization of the profiles}: Attributes of each profile are randomly generated for each of the $K$ choice tasks; potential outcomes are then statistically independent of the profiles; this assumption is met by design.\\
+(4) \textbf{Completely independent randomization}: The attributes of interest are not restricted to take on particular levels depending on the values of the other attributes or profiles. All possible combinations of levels of attributes as well as profiles are, in theory, possible in this project.
+
+\subsection{Projected Schedule of Work}
+\begin{table}[H]
+	\caption{Projected Schedule of Work}
+	\begin{tabularx}{\textwidth}{ll}
+	\toprule
+	Activity & Start Date \\
+	\midrule
+	Funding Applications (College, Department, CESS) & June 2018 \\
+	Programming of Pilot, Baseline, Experiments & July 2018 \\
+	CUREC Application (IRB approval) & July 2018 \\
+	Pre-registration of pilot and experiments on EGAP & September 2018 \\
+	Pilot Tests & October 2018 \\
+	Conduct of Experiments & November 2018 \\
+	Data Analysis & December 2018 \\
+	Write-Up & January 2019 \\
+	Submission of Thesis & April 2019 \\
+	\bottomrule
+	\end{tabularx}
+\end{table}
+
+\newpage
+\begin{thebibliography}{56}
+\addcontentsline{toc}{section}{Bibliography}
+\singlespacing
+
+\bibitem{acharya}
+Acharya, Avidit, Matthew Blackwell, and Maya Sen. 2016. ``Explaining Causal Findings Without Bias: Detecting and Assessing Direct Effects'' \textit{American Political Science Review} 110(3):512-529.
+
+\bibitem{aisch}
+Aisch, Gregor, and Alicia Parlapiano. 2017. “What Do You Think Is the Most Important Problem Facing This Country Today?" \textit{New York Times online}, February 27, 2017. \url{https://www.nytimes.com/interactive/2017/02/27/us/politics/most-important-problem-gallup-polling-question.html}
+
+\bibitem{anduiza}
+Anduiza, Eva, Aina Gallego, and Jordi Muñoz. 2013. “Turning a Blind Eye: Experimental Evidence of Partisan Bias in Attitudes Toward Corruption." \textit{Comparative Political Studies} 46(12):1664-1692. 
+
+\bibitem{angrist}
+Angrist, Joshua, and Jörn-Steffen Pischke. 2010. \textit{Mostly Harmless Econometrics. An Empiricist's Coompanion}. Princeton: Princeton University Press.
+
+\bibitem{ansolabehere}
+Ansolabehere, Stephen, and M. Socorro Puy. 2018. “Measuring Issue-Salience in Voters' Preferences." \textit{Electoral Studies} 51:103-114.
+
+\bibitem{arceneaux}
+Arceneaux, Kevin, and Martin Johnson. 2013. \textit{Changing Minds or Changing Channels? Partisan News in an Age of Choice.} Chicago, IL: The University of Chicago Press.
+
+\bibitem{ashworth}
+Ashworth, Scott. 2012. “Electoral Accountability: Recent Theoretical and Empirical Work." \textit{Annual Review of Political Science} 15:183-201.
+
+\bibitem{azfar}
+Azfar, Omar, and William R. Nelson, Jr. 2007. “Transparency, Wages, and the Separation of Powers: An Experimental Analysis of Corruption." \textit{Public Choice} 130(3):471-493.
+
+\bibitem{bagenholm}
+Bagenholm, Andreas. 2013. “Throwing the Rascals Out? The Electoral Effects of Corruption Allegations and Corruption Scandals in Europe 1981-2011." \textit{Crime, Law and Social Change} 60(5):595-609.
+
+\bibitem{baird}
+Baird, Sarah, Craig McIntosh, and Berk Özler. 2011. “Cash or Condition? Evidence from a Cash Transfer Experiment." \textit{The Quarterly Journal of Economics} 126(4):1709-1753.
+
+\bibitem{barro}
+Barro, Robert. 1973. “The Control of Politicians: An Economic Model." \textit{Public Choice} 14:19-42.
+
+\bibitem{berinsky}
+Berinsky, Adam J., Gregory A. Huber, and Gabriel S. Lenz. 2012. “Evaluating Online Labor Markets for Experimental Research: Amazon.com's Mechanical Turk." \textit{Political Analysis} 20(3):351-368.
+
+\bibitem{botero}
+Botero, Sandra, Rodrigo C. Cornejo, Laura Gamboa, Nara Pavao and David. W. Nickerson. 2015. “Says Who? An Experiment on Allegations of Corruption and Credibility of Sources." \textit{Political Research Quarterly} 68(3):493-504.
+
+\bibitem{broockman}
+Broockman, David E., Joshua L. Kalla, and Jasjeet S. Sekhon. 2017. “The Design of Field Experiments With Survey Outcomes: A Framework for Selecting More Efficient, Robust, and Ethical Designs." \textit{Political Analysis} 25:435-464.
+
+\bibitem{chang}
+Chang, Eric C., Miriam A. Golden, and Seth J. Hill. 2010. “Legislative Malfeasance and Political Accountability." \textit{World Politics} 62(2):177-220.
+
+\bibitem{charron}
+Charron, Nicholas, and Andreas Bagenholm. 2016. “Ideology, Party Systems and Corruption Voting in European Democracies." \textit{Electoral Studies} 41:35-49.
+
+\bibitem{coppock18}
+Coppock, Alexander. 2018. “Generalizing From Survey Experiments Conducted on Mechanical Turk: A Replication Approach." \textit{Political Science Research and Methods}:1-16.
+
+\bibitem{devries}
+de Vries, Catherine E., and Hector Solaz. 2017. “Electoral Consequences of Corruption." \textit{Annual Review of Political Science} 20:391-408.
+
+\bibitem{duch08}
+Duch, Raymond M., and Randy T. Stevenson. 2008. \textit{The Economic Vote: How Political and Economic Institutions Condition Election Results}. New York: Cambridge University Press.
+
+\bibitem{duch16}
+Duch, Raymond M., Pablo Beramendi, and Akitaka Matsuo. 2016. “Comparing Modes and Samples in Experiments: When Lab Subjects Meet Real People." Unpublished manuscript.
+
+\bibitem{eggers14}
+Eggers, Andrew C. and Arthur Spirling. 2014. “Guarding the Guardians: Partisanship, Corruption and Delegation in Victorian Britain." \textit{Quarterly Journal of Political Science} 9(3):337-370.
+
+\bibitem{eggers17}
+Eggers, Andrew C. and Arthur Spirling. 2017. “Incumbency Effects and the Strength of Party Preferences: Evidence from Multiparty Electoins in the United Kingdom." \textit{Journal of Politics} 79(3):903-920.
+
+\bibitem{elinder}
+Elinder, Mikael, Henrik Jordahl, and Panu Poutvaara. 2015. “Promises, Policices and Pocketbook Voting." \textit{European Economic Review} 75:177-194.
+
+\bibitem{fearon}
+Fearon, James D. 1999. Electoral Accountability and the Control of Politicians: Selecting Good Types versus Sanctioning Poor Performance. In \textit{Democracy, Accountability, and Representation}, ed. Adam Przeworski, Susan C. Stokes, and Bernard Manin, 55-97. Cambridge: Cambridge University Press.
+
+\bibitem{feltovich}
+Feltovich, Nick, and Francesco Giovannoni. 2015. “Selection vs. Accountability: An Experimental Investigation of Campaign Promises in a Moral-Hazard Environment." \textit{Journal of Public Economics} 126:39-51.
+
+\bibitem{ferejohn}
+Ferejohn, John. 1986. “Incumbent Performance and Electoral Control." \textit{Public Choice} 50(1):5-25.
+
+\bibitem{ferraz08}
+Ferraz, Claudio, and Frederico Finan. 2008. “Exposing Corrupt Politicians: The Effects of Brazil's Publicly Released Audits On Electoral Outcomes." \textit{Quarterly Journal of Economics} 123(2):703-745.
+
+\bibitem{ferraz11}
+Ferraz, Claudio, and Frederico Finan. 2011. “Electoral Accountability and Corruption: Evidence from the Audits of Local Governments." \textit{American Economic Review} 101(4):1274-1311.
+
+\bibitem{fiorina}
+Fiorina, Morris P. 1981. \textit{Retrospective Voting in American National Elections}. New Haven: Yale University Press.
+
+\bibitem{gallup}
+Gallup News. 2018. “Most Important Problem". In \textit{In Depth: Topics A to Z}. \url{http://news.gallup.com/poll/1675/most-important-problem.aspx}
+
+\bibitem{gg}
+Gerber, Alan S., and Donald P. Green. 2012. \textit{Field Experiments. Design, Analysis, and Interpretation}. New York: W.W. Norton.
+
+\bibitem{green04}
+Green, Donald, Bradley Palmquist, and Eric Schickler. 2004. \textit{Partisan Hearts and Minds. Political Parties and the Social Identities of Voters}. New Heaven: Yale University Press.
+
+\bibitem{hainmueller}
+Hainmueller, Jens, Daniel J. Hopkins, and Teppei Yamamoto. 2014. “Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments." \textit{Political Analysis} 22(1):1-30.
+
+\bibitem{healymal}
+Healy, Andrew, and Neal Malhotra. 2013. “Retrospective Voting Reconsidered." \textit{Annual Review of Political Science} 16:285-306.
+
+\bibitem{holland}
+Holland, Paul W. 1986. “Statistics and Causal Inference." \textit{Journal of the American Statistical Association} 81(396):945-960.
+
+\bibitem{huff}
+Huff, Connor, and Dusting Tingley. 2015. “Who Are These People? Evaluating the Democraphic Characteristics and Political Preferences of MTurk Survey Respondents." \textit{Research \& Politics} 1:1-12.
+
+\bibitem{imai}
+Imai, Kosuke, Luke Keele, Dusting Tingley, and Teppei Yamamoto. 2011. “Unpacking the Black Box of Causality: Learning about Causal Mechanisms from Experimental and Observational Studies." \textit{American Political Science Review} 105(4):765-789.
+
+\bibitem{keele}
+Keele, Luke. 2015. “The Statistics of Causal Inference: A View from Political Methodology." \textit{Political Analysis} 23(3):313-335.
+
+\bibitem{key}
+Key, Valdimer O., Jr. 1966. \textit{The Responsible Electorate}. New York: Vintage.
+
+\bibitem{klasnja13}
+Klasnja, Marko, and Joshua A. Tucker. 2013. “The Economy, Corruption, and the Vote: Evidence from Experiments in Sweden and Moldova." \textit{Electoral Studies} 32(3):536-543.
+
+\bibitem{klasnja16}
+Klasnja, Marko, Joshua A. Tucker, and Kevin Deegan-Krause. 2016. “Pocketbook vs. Sociotropic Corruption Voting." \textit{British Journal of Political Science} 46(1):67-94.
+
+\bibitem{klasnja17}
+Klasnja, Marko, Andrew T. Little, and Joshua A. Tucker. 2018. “Political Corruption Traps." \textit{Political Science Research Methods} 6(3):413-428.
+
+\bibitem{krause}
+Krause, Stefan, and Fabio Méndez. 2009. “Corruption and Elections: An Empirical Study for a Cross-Section of Countries." \textit{Economics \& Politics} 21(2):179-200.
+
+\bibitem{lockerbie}
+Lockerbie, Brad. 2008. \textit{Do Voters Look to the Future? Economics and Elections}. Albany: SUNY.
+
+\bibitem{lupu}
+Lupu, Noam. 2013. “Party Brands and Partisanship: Theory with Evidence from a Survey Experiment in Argentina." \textit{American Journal of Political Science} 57(1):49-64.
+
+\bibitem{manin}
+Manin, Bernard, Adam Przeworski, and Susan C. Stokes. 1999. Introduction. In \textit{Democracy, Accountability, and Representation}, ed. Adam Przeworski, Susan C. Stokes, and Bernard Manin, 1-26. Cambridge: Cambridge University Press. 
+
+\bibitem{manzetti}
+Manzetti, Luigi, and Carole J. Wilson. 2007. “Why Do Corrupt Politicians Maintain Public Support?" \textit{Comparative Political Studies} 40(8):949-970.
+
+\bibitem{miller}
+Miller, Joanne M., Jon A. Krosnick, and Leandre R. Fabrigar. 2016. The Origins of Policy Issue Salience: Personal and National Importance Impact on Behaviroal, Cognitive, and Emotional Issue Engagement. In \textit{Political Psychology: New Explorations}, ed. Jon A. Krosnick, I-Chant A. Chiang, and Tobias H. Stark, 125-171. New York: Taylor and Francis.
+
+\bibitem{peters}
+Peters, John G., and Susan Welch. 1980. “The Effects of Charges of Corruption on Voting Behavior in Congressional Elections." \textit{The American Political Science Review} 74(3):697-708.
+
+\bibitem{samii}
+Samii, Cyrus. 2016. “Causal Empiricism in Quantitative Research." \textit{Journal of Politics} 78(3):941-955.
+
+\bibitem{schleiter14}
+Schleiter, Petra, and Alisa M. Voznaya. 2014. “Party System Competitiveness and Corruption." \textit{Party Politics} 20(5):675-686.
+
+\bibitem{schleiter16}
+Schleiter, Petra, and Alisa M. Voznaya. 2016. “Party System Institutionalization, Accountability and Governmental Corruption." \textit{British Journal of Political Science} 48(2):315-342.
+
+\bibitem{strezhnev}
+Strezhnev, Anton, Jens Hainmueller, Daniel J. Hopkins, and Teppei Yamamoto. 2014. “Conjoint Survey Design Tool: Software Manual." Unpublished manuscript.
+
+\bibitem{tavits}
+Tavits, Margit. 2007. “Clarity of Responsibility and Corruption." \textit{American Journal of Political Science} 51(1):218-229.
+
+\bibitem{transparency}
+Transparency International. 2018. “Corruption Perceptions Index 2017" \textit{Surveys}, 21 February 2018. \url{https://www.transparency.org/news/feature/corruption_perceptions_index_2017}
+
+\bibitem{winters}
+Winters, Matthew S., and Rebecca Weitz-Shapiro. 2013. “Lacking Information or Condoning Corruption: When Will Voters Support Corrupt Politicians?" \textit{Journal of Comparative Politics} 45(4):418-436.
+
+\end{thebibliography}
+
+
+\end{document}
